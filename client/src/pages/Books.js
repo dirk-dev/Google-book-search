@@ -66,7 +66,7 @@ class Books extends Component {
                   value={this.state.title}
                   onChange={this.handleInputChange}
                   name="title"
-                  placeholder="Title (required)"
+                  placeholder="Book Title"
                 />
                 <FormBtn
                   disabled={!(this.state.author && this.state.title)}
